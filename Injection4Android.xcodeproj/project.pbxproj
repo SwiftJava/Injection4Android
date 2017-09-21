@@ -1,0 +1,463 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BB217D5D1F6C6F3E00BA45C6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BB217D5C1F6C6F3E00BA45C6 /* AppDelegate.m */; };
+		BB217D5F1F6C6F3E00BA45C6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB217D5E1F6C6F3E00BA45C6 /* Assets.xcassets */; };
+		BB217D621F6C6F3E00BA45C6 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = BB217D601F6C6F3E00BA45C6 /* MainMenu.xib */; };
+		BB217D651F6C6F3E00BA45C6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BB217D641F6C6F3E00BA45C6 /* main.m */; };
+		BB217D6F1F6C71AE00BA45C6 /* App.icns in Resources */ = {isa = PBXBuildFile; fileRef = BB217D6C1F6C715600BA45C6 /* App.icns */; };
+		BB217D721F6C73B100BA45C6 /* Connection.mm in Sources */ = {isa = PBXBuildFile; fileRef = BB217D711F6C73B100BA45C6 /* Connection.mm */; };
+		BB217D751F6C746100BA45C6 /* FileWatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = BB217D731F6C746100BA45C6 /* FileWatcher.m */; };
+		BB217D7D1F6C77E800BA45C6 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB217D7C1F6C77E800BA45C6 /* main.swift */; };
+		BB217D821F6C780A00BA45C6 /* AndroidInjection.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB217D811F6C780A00BA45C6 /* AndroidInjection.swift */; };
+		BB217D841F6C782C00BA45C6 /* SwiftInternals.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB217D831F6C782C00BA45C6 /* SwiftInternals.swift */; };
+		BB217D861F6C796100BA45C6 /* builder.sh in Resources */ = {isa = PBXBuildFile; fileRef = BB217D851F6C796100BA45C6 /* builder.sh */; };
+		BB217D891F6C831D00BA45C6 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = BB217D881F6C831D00BA45C6 /* libz.tbd */; };
+		BB6CB8E91F7407D80067C38F /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = BB6CB8E81F7407D80067C38F /* LICENSE */; };
+		CE5514E31F6EF050004148B8 /* AndroidInjectionHost.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5514E21F6EF050004148B8 /* AndroidInjectionHost.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		BB217D781F6C77E800BA45C6 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		BB217D581F6C6F3E00BA45C6 /* Injection4Android.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Injection4Android.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB217D5B1F6C6F3E00BA45C6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BB217D5C1F6C6F3E00BA45C6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BB217D5E1F6C6F3E00BA45C6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BB217D611F6C6F3E00BA45C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		BB217D631F6C6F3E00BA45C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BB217D641F6C6F3E00BA45C6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BB217D661F6C6F3E00BA45C6 /* Injection4Android.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Injection4Android.entitlements; sourceTree = "<group>"; };
+		BB217D6C1F6C715600BA45C6 /* App.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = App.icns; sourceTree = "<group>"; };
+		BB217D701F6C73B100BA45C6 /* Connection.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Connection.h; sourceTree = "<group>"; };
+		BB217D711F6C73B100BA45C6 /* Connection.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = Connection.mm; sourceTree = "<group>"; };
+		BB217D731F6C746100BA45C6 /* FileWatcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FileWatcher.m; sourceTree = "<group>"; };
+		BB217D741F6C746100BA45C6 /* FileWatcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FileWatcher.h; sourceTree = "<group>"; };
+		BB217D7A1F6C77E800BA45C6 /* testclient */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = testclient; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB217D7C1F6C77E800BA45C6 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		BB217D811F6C780A00BA45C6 /* AndroidInjection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AndroidInjection.swift; sourceTree = "<group>"; };
+		BB217D831F6C782C00BA45C6 /* SwiftInternals.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftInternals.swift; sourceTree = "<group>"; };
+		BB217D851F6C796100BA45C6 /* builder.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = builder.sh; sourceTree = "<group>"; };
+		BB217D881F6C831D00BA45C6 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		BB217D8A1F6CA11E00BA45C6 /* testclient-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "testclient-Bridging-Header.h"; sourceTree = "<group>"; };
+		BB6CB8E71F73FC0A0067C38F /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		BB6CB8E81F7407D80067C38F /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		CE5514E21F6EF050004148B8 /* AndroidInjectionHost.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AndroidInjectionHost.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BB217D551F6C6F3E00BA45C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB217D891F6C831D00BA45C6 /* libz.tbd in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB217D771F6C77E800BA45C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BB217D4F1F6C6F3E00BA45C6 = {
+			isa = PBXGroup;
+			children = (
+				BB6CB8E81F7407D80067C38F /* LICENSE */,
+				BB6CB8E71F73FC0A0067C38F /* README.md */,
+				BB217D5A1F6C6F3E00BA45C6 /* Injection4Android */,
+				BB217D7B1F6C77E800BA45C6 /* testclient */,
+				BB217D591F6C6F3E00BA45C6 /* Products */,
+				BB217D871F6C831C00BA45C6 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		BB217D591F6C6F3E00BA45C6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BB217D581F6C6F3E00BA45C6 /* Injection4Android.app */,
+				BB217D7A1F6C77E800BA45C6 /* testclient */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BB217D5A1F6C6F3E00BA45C6 /* Injection4Android */ = {
+			isa = PBXGroup;
+			children = (
+				BB217D5B1F6C6F3E00BA45C6 /* AppDelegate.h */,
+				BB217D5C1F6C6F3E00BA45C6 /* AppDelegate.m */,
+				BB217D701F6C73B100BA45C6 /* Connection.h */,
+				BB217D711F6C73B100BA45C6 /* Connection.mm */,
+				BB217D741F6C746100BA45C6 /* FileWatcher.h */,
+				BB217D731F6C746100BA45C6 /* FileWatcher.m */,
+				BB217D5E1F6C6F3E00BA45C6 /* Assets.xcassets */,
+				BB217D601F6C6F3E00BA45C6 /* MainMenu.xib */,
+				BB217D631F6C6F3E00BA45C6 /* Info.plist */,
+				BB217D641F6C6F3E00BA45C6 /* main.m */,
+				BB217D661F6C6F3E00BA45C6 /* Injection4Android.entitlements */,
+				BB217D6C1F6C715600BA45C6 /* App.icns */,
+				BB217D851F6C796100BA45C6 /* builder.sh */,
+			);
+			path = Injection4Android;
+			sourceTree = "<group>";
+		};
+		BB217D7B1F6C77E800BA45C6 /* testclient */ = {
+			isa = PBXGroup;
+			children = (
+				BB217D7C1F6C77E800BA45C6 /* main.swift */,
+				BB217D831F6C782C00BA45C6 /* SwiftInternals.swift */,
+				BB217D811F6C780A00BA45C6 /* AndroidInjection.swift */,
+				BB217D8A1F6CA11E00BA45C6 /* testclient-Bridging-Header.h */,
+				CE5514E21F6EF050004148B8 /* AndroidInjectionHost.swift */,
+			);
+			path = testclient;
+			sourceTree = "<group>";
+		};
+		BB217D871F6C831C00BA45C6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BB217D881F6C831D00BA45C6 /* libz.tbd */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BB217D571F6C6F3E00BA45C6 /* Injection4Android */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB217D691F6C6F3E00BA45C6 /* Build configuration list for PBXNativeTarget "Injection4Android" */;
+			buildPhases = (
+				BB217D541F6C6F3E00BA45C6 /* Sources */,
+				BB217D551F6C6F3E00BA45C6 /* Frameworks */,
+				BB217D561F6C6F3E00BA45C6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Injection4Android;
+			productName = Injection4Android;
+			productReference = BB217D581F6C6F3E00BA45C6 /* Injection4Android.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BB217D791F6C77E800BA45C6 /* testclient */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB217D7E1F6C77E800BA45C6 /* Build configuration list for PBXNativeTarget "testclient" */;
+			buildPhases = (
+				BB217D761F6C77E800BA45C6 /* Sources */,
+				BB217D771F6C77E800BA45C6 /* Frameworks */,
+				BB217D781F6C77E800BA45C6 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = testclient;
+			productName = testclient;
+			productReference = BB217D7A1F6C77E800BA45C6 /* testclient */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BB217D501F6C6F3E00BA45C6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "John Holdsworth";
+				TargetAttributes = {
+					BB217D571F6C6F3E00BA45C6 = {
+						CreatedOnToolsVersion = 9.0;
+					};
+					BB217D791F6C77E800BA45C6 = {
+						CreatedOnToolsVersion = 9.0;
+						LastSwiftMigration = 0900;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = BB217D531F6C6F3E00BA45C6 /* Build configuration list for PBXProject "Injection4Android" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BB217D4F1F6C6F3E00BA45C6;
+			productRefGroup = BB217D591F6C6F3E00BA45C6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BB217D571F6C6F3E00BA45C6 /* Injection4Android */,
+				BB217D791F6C77E800BA45C6 /* testclient */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BB217D561F6C6F3E00BA45C6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB217D6F1F6C71AE00BA45C6 /* App.icns in Resources */,
+				BB217D5F1F6C6F3E00BA45C6 /* Assets.xcassets in Resources */,
+				BB217D861F6C796100BA45C6 /* builder.sh in Resources */,
+				BB217D621F6C6F3E00BA45C6 /* MainMenu.xib in Resources */,
+				BB6CB8E91F7407D80067C38F /* LICENSE in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BB217D541F6C6F3E00BA45C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB217D651F6C6F3E00BA45C6 /* main.m in Sources */,
+				BB217D5D1F6C6F3E00BA45C6 /* AppDelegate.m in Sources */,
+				BB217D751F6C746100BA45C6 /* FileWatcher.m in Sources */,
+				BB217D721F6C73B100BA45C6 /* Connection.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB217D761F6C77E800BA45C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB217D841F6C782C00BA45C6 /* SwiftInternals.swift in Sources */,
+				BB217D7D1F6C77E800BA45C6 /* main.swift in Sources */,
+				BB217D821F6C780A00BA45C6 /* AndroidInjection.swift in Sources */,
+				CE5514E31F6EF050004148B8 /* AndroidInjectionHost.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BB217D601F6C6F3E00BA45C6 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BB217D611F6C6F3E00BA45C6 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BB217D671F6C6F3E00BA45C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		BB217D681F6C6F3E00BA45C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		BB217D6A1F6C6F3E00BA45C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Injection4Android/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.johnholdsworth.Injection4Android;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BB217D6B1F6C6F3E00BA45C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Injection4Android/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.johnholdsworth.Injection4Android;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BB217D7F1F6C77E800BA45C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9V5A8WE85E;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				OTHER_SWIFT_FLAGS = "-DINJECTION_ADDRESS=13";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OBJC_BRIDGING_HEADER = "testclient/testclient-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BB217D801F6C77E800BA45C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9V5A8WE85E;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				OTHER_SWIFT_FLAGS = "-DINJECTION_ADDRESS=13";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "testclient/testclient-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BB217D531F6C6F3E00BA45C6 /* Build configuration list for PBXProject "Injection4Android" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB217D671F6C6F3E00BA45C6 /* Debug */,
+				BB217D681F6C6F3E00BA45C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB217D691F6C6F3E00BA45C6 /* Build configuration list for PBXNativeTarget "Injection4Android" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB217D6A1F6C6F3E00BA45C6 /* Debug */,
+				BB217D6B1F6C6F3E00BA45C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB217D7E1F6C77E800BA45C6 /* Build configuration list for PBXNativeTarget "testclient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB217D7F1F6C77E800BA45C6 /* Debug */,
+				BB217D801F6C77E800BA45C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BB217D501F6C6F3E00BA45C6 /* Project object */;
+}
